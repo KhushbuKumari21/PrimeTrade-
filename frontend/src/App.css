@@ -1,104 +1,86 @@
-body{
-
-background:linear-gradient(120deg,#2980b9,#6dd5fa);
-
-font-family:sans-serif;
-
-height:100vh;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-margin:0;
-
+body {
+  background: linear-gradient(120deg, #2980b9, #6dd5fa);
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
-
-.container{
-
-background:white;
-
-padding:30px;
-
-border-radius:10px;
-
-width:350px;
-
-box-shadow:0 0 20px rgba(0,0,0,0.2);
-
-text-align:center;
-
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-
-input{
-
-width:100%;
-
-padding:10px;
-
-margin:10px 0;
-
-border:1px solid #ccc;
-
-border-radius:5px;
-
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-
-button{
-
-padding:10px;
-
-margin:5px;
-
-border:none;
-
-background:#2980b9;
-
-color:white;
-
-border-radius:5px;
-
-cursor:pointer;
-
+button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background: #2980b9;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-
-button:hover{
-
-background:#1f6691;
-
+button:hover {
+  background: #1f6691;
 }
 
-
-.logout{
-
-background:red;
-
+.logout {
+  background: #e74c3c;
 }
 
-
-.task{
-
-background:#f1f1f1;
-
-padding:10px;
-
-margin-top:10px;
-
-display:flex;
-
-justify-content:space-between;
-
+.logout:hover {
+  background: #c0392b;
 }
 
+.task {
+  background: #f1f1f1;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
 
-.msg{
+.task button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
 
-color:green;
+.task button:nth-child(1) {
+  background: #f39c12; /* Edit button */
+}
 
+.task button:nth-child(1):hover {
+  background: #d68910;
+}
+
+.task button:nth-child(2) {
+  background: #e74c3c; /* Delete button */
+}
+
+.task button:nth-child(2):hover {
+  background: #c0392b;
+}
+
+.msg {
+  color: green;
+  min-height: 20px;
 }
