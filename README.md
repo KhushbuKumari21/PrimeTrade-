@@ -81,7 +81,7 @@ D:\prime-assignment\Output\put for update.jpg
 
 Clone repository:
 
-git clone https://github.com/YOUR_USERNAME/prime-assignment.git
+git clone https://github.com/KhushbuKumari21/PrimeTrade-
 
 cd prime-assignment
 
@@ -192,3 +192,5 @@ Frontend UI supports:
 Khushbu Kumari
 
 Backend Developer Intern Assignment
+
+# Github Link :
